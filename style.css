@@ -1,0 +1,46 @@
+.contenedor{
+    height: 420px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.contenedor form{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.contenedor input[type=textfield]{
+width: 98%;
+height: 25%;
+cursor: default;
+color: white;
+padding: 3px;
+text-align: right;
+font-size: 50px;
+border: 0;
+outline: 0;
+background-color: black;
+}
+
+.contenedor input[type=button], [type=reset]{
+    width: 22%;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+    
+}
+
+.contenedor .orange{
+    background-color: orange;
+}
+
+.contenedor .gray{
+    background-color: gray;
+}
